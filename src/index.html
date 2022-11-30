@@ -1,14 +1,55 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Photos</title>
+  <link rel="shortcut icon" type="image/x-icon" href="./images/icon/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="./images/icon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./images/icon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./images/icon/favicon-16x16.png">
+<link rel="manifest" href="./images/icon/site.webmanifest">
+<link rel="mask-icon" href="./images/icon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="./sass/index.scss" />
+</head>
+
+<body>
+  <include src="./partials/header.html"></include>
+  <include src="./partials/main.html"></include>
+  <include src="./partials/footer.html"></include>
+  <script src="./index.js" type="module"></script>
+</body> -->
+
+<!-- </html> -->
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page title</title>
-    <link rel="stylesheet" href="./sass/index.scss" />
-    <script type="module" src="./index.js"></script>
-  </head>
-  <body>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page title</title>
+  <!-- <link rel="icon" type="image/png" sizes="32x32" href="./images/icon/favicon-32x32.png"> -->
+  <!-- <link rel="icon" type="image/png" sizes="16x16" href="./images/icon/favicon-16x16.png"> -->
+  <!-- <link rel="apple-touch-icon" sizes="180x180" href="./images/icon/apple-touch-icon.png"> -->
+  <link rel="stylesheet" href="./sass/index.scss" />
+  <script type="module" src="./index.js"></script>
+</head>
+
+<body>
+  <form class="search-form" id="search-form">
+    <input type="text" name="searchQuery" autocomplete="off" placeholder="Search images..." />
+    <button type="submit">Search</button>
+  </form>
+  <!-- ❗️❗️❗️ Add partials like so for every page -->
+  <!-- <include src="./partials/example.html"></include> -->
+  <include src="./partials/main.html"></include>
+
+</body>
+
 </html>
